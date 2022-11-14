@@ -1,21 +1,21 @@
-function playA() {
+document.getElementById("buttonA").addEventListener("click", function() {
     document.getElementById("noteA").play();
-}
-function playB() {
+});
+document.getElementById("buttonB").addEventListener("click", function() {
     document.getElementById("noteB").play();
-}
-function playC() {
+});
+document.getElementById("buttonC").addEventListener("click", function() {
     document.getElementById("noteC").play();
-}
-function playD() {
+});
+document.getElementById("buttonD").addEventListener("click", function() {
     document.getElementById("noteD").play();
-}
-function playE() {
+});
+document.getElementById("buttonE").addEventListener("click", function() {
     document.getElementById("noteE").play();
-}
-function playF() {
+});
+document.getElementById("buttonF").addEventListener("click", function() {
     document.getElementById("noteF").play();
-}
-function playG() {
+});
+document.getElementById("buttonG").addEventListener("click", function() {
     document.getElementById("noteG").play();
-}
+});
