@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer>
+        function playA() {
+            var audio = document.getElementById("noteA");
+            audio.play();
+        }
+        function playB() {
+            var audio = document.getElementById("noteB");
+            audio.play();
+        }
+        function playC() {
+            var audio = document.getElementById("noteC");
+            audio.play();
+        }
+        function playD() {
+            var audio = document.getElementById("noteD");
+            audio.play();
+        }
+        function playE() {
+            var audio = document.getElementById("noteE");
+            audio.play();
+        }
+        function playF() {
+            var audio = document.getElementById("noteF");
+            audio.play();
+        }
+        function playG() {
+            var audio = document.getElementById("noteG");
+            audio.play();
+        }
+    </script>
     <title>Music</title>
 </head>
 <body>
@@ -18,14 +48,21 @@
             <th>G</th>
         </tr>
         <tr>
-            <td><button>+</button></td>
-            <td><button>+</button></td>
-            <td><button>+</button></td>
-            <td><button>+</button></td>
-            <td><button>+</button></td>
-            <td><button>+</button></td>
-            <td><button>+</button></td>
+            <td><button onclick="playA()">+</button></td>
+            <td><button onclick="playB()">+</button></td>
+            <td><button onclick="playC()">+</button></td>
+            <td><button onclick="playD()">+</button></td>
+            <td><button onclick="playE()">+</button></td>
+            <td><button onclick="playF()">+</button></td>
+            <td><button onclick="playG()">+</button></td>
         </tr>
     </table>
+    <audio id="noteA" src="notes/a.mp3"></audio>
+    <audio id="noteB" src="notes/b.mp3"></audio>
+    <audio id="noteC" src="notes/c.mp3"></audio>
+    <audio id="noteD" src="notes/d.mp3"></audio>
+    <audio id="noteE" src="notes/e.mp3"></audio>
+    <audio id="noteF" src="notes/f.mp3"></audio>
+    <audio id="noteG" src="notes/g.mp3"></audio>
 </body>
 </html>
