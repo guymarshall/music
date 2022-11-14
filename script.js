@@ -1,28 +1,21 @@
 function playA() {
-    var audio = document.getElementById("noteA");
-    audio.play();
+    document.getElementById("noteA").play();
 }
 function playB() {
-    var audio = document.getElementById("noteB");
-    audio.play();
+    document.getElementById("noteB").play();
 }
 function playC() {
-    var audio = document.getElementById("noteC");
-    audio.play();
+    document.getElementById("noteC").play();
 }
 function playD() {
-    var audio = document.getElementById("noteD");
-    audio.play();
+    document.getElementById("noteD").play();
 }
 function playE() {
-    var audio = document.getElementById("noteE");
-    audio.play();
+    document.getElementById("noteE").play();
 }
 function playF() {
-    var audio = document.getElementById("noteF");
-    audio.play();
+    document.getElementById("noteF").play();
 }
 function playG() {
-    var audio = document.getElementById("noteG");
-    audio.play();
+    document.getElementById("noteG").play();
 }
